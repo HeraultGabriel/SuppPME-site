@@ -8,7 +8,7 @@ html, body {
 
 body{
     line-height: 0.8;
-    background-image: url('../HTML/images/jsp.png');
+    background-image: url('HTML/images/jsp.png');
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat; 
