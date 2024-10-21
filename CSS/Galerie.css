@@ -1,0 +1,141 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: arial;
+}
+
+body{
+    line-height: 0.8;
+    background-image: url('../HTML/images/jsp.png');
+    background-size: cover; 
+    color: #ffffff;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+
+
+header {
+    background: #000000c7;
+    padding: 20px;
+    text-align: center;
+    block-size: 220px;
+}
+
+hr{
+    margin: 10px;
+}
+
+h1 {
+    color : #ffffff;
+    font-size: 60px;
+    margin-bottom: 60px;
+}
+.Accu li{
+    color: rgb(0, 149, 255);
+}
+
+.Serv li{
+    color: rgb(0, 149, 255);
+}
+
+.A_pro li{
+    color: rgb(0, 149, 255);
+}
+
+.Gale li{
+    color: rgb(0, 149, 255);
+}
+
+.Cont li{
+    color: rgb(0, 149, 255);
+}
+
+
+.hed{
+    list-style: none;
+    column-gap: 70px;
+    display: flex; 
+    justify-content: center;
+}
+
+.hed a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.hed li{
+    font-size : 30px;
+    line-height: 0.5;
+}
+
+a {
+    color: inherit;
+}
+
+.histoire{
+    list-style: none;
+}
+
+
+
+p{
+    line-height: 1.2;
+    font-size: 15pt;
+}
+
+.galerie1 {
+    display: flex; /* Utilise Flexbox pour aligner les éléments */
+    align-items: center; /* Centre verticalement les éléments */
+    justify-content: space-between; /* Espace entre les éléments (images et texte) */
+    margin: 0;
+    padding: 5px;
+    size: 100%;
+    background-color: rgba(128, 128, 128, 0.329);
+}
+
+img {
+    width: 500px; 
+    height: 500px; 
+}
+
+.galerie2{
+    display: flex; /* Utilise Flexbox pour aligner les éléments */
+    align-items: center; /* Centre verticalement les éléments */
+    justify-content: space-between; /* Espace entre les éléments (images et texte) */
+    padding: 5px;
+    size: 100%;
+    background-color: rgba(128, 128, 128, 0.329);
+}
+
+.galerie3{
+    display: flex; /* Utilise Flexbox pour aligner les éléments */
+    align-items: center; /* Centre verticalement les éléments */
+    justify-content: space-between; /* Espace entre les éléments (images et texte) */
+    padding: 5px;
+    size: 100%;
+    background-color: rgba(128, 128, 128, 0.329);
+}
+
+.texte-au-milieu {
+    width: 50%; 
+    text-align: center; 
+    font-family: Arial, sans-serif; 
+    padding: 0 50px; /* Espacement de 100px à gauche et à droite du texte */
+}
+
+.foot{
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+    size: 100%;
+    background-color: rgba(0, 0, 0, 0.329);
+}
+
+
+h3 {
+    color: #ffffff;
+    font-size: 25px;
+}
+
