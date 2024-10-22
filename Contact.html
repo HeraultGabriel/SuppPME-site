@@ -1,0 +1,68 @@
+<!DOCTYPE html> 
+<html lang="fr">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <title>Contact</title>
+    <link href="../CSS/Contact.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+        <h1>Contact</h1>
+        <div class="line">
+            <nav>
+                <ul class="hed">
+                    <div class="Accu">
+                        <li><a href="Accueil.html">Accueil</a></li></div>
+                    <div class="Serv">
+                        <li><a href="Services.html">Services</a></li></div>
+                    <div class="A_pro">
+                        <li><a href="A_propos.html">À propos</a></li></div>
+                    <div class="Gale">
+                        <li><a href="Galerie.html">Galerie</a></li></div>
+                </ul>
+            </nav>
+            <br>
+            <hr>
+        </div>
+    </header>
+    <section class="corps">
+        <h2>Formulaire à remplir pour nous contacter :</h2>
+        <table>
+            <tr>
+                <td class="question">Nom :</td>
+                <td class="response"><input type="text" name="response1"></td>
+            </tr>
+            <tr>
+                <td class="question">Prénom :</td>
+                <td class="response"><input type="text" name="response2"></td>
+            </tr>
+            <tr>
+                <td class="question">Mail :</td>
+                <td class="response"><input type="text" name="response3"></td>
+            </tr>
+            <tr>
+                <td class="question">Numéro de téléphone :</td>
+                <td class="response"><input type="text" name="response4"></td>
+            </tr>
+            <tr>
+                <td class="question">Lien likedIn (facultatif) :</td>
+                <td class="response"><input type="text" name="response5"></td>
+            </tr>
+        </table>
+        <div class="message-container">
+            <label for="message">Votre Message :</label>
+            <textarea id="message" name="message" placeholder="Votre message..."></textarea>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <section id="dropzone" class="dropzone">
+        Déposé votre CV ici (facultatif) :
+        <ul id="fileList"></ul>
+    </section>
+    <button class="bouton">Envoyez</button>
+
+    <script src="../JS/Contact.js"></script>
+</body>
+</html>
